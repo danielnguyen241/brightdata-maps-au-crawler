@@ -1,0 +1,33 @@
+{
+  "name": "brightdata-maps-au-crawler",
+  "version": "1.0.0",
+  "description": "Production-grade, cost-optimized Google Maps Crawler for Australia using Bright Data Dataset API v3 with atomic checkpointing, multi-key pooling, and zero-cost email enrichment.",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "bin": {
+    "maps-crawler": "src/cli.mjs"
+  },
+  "scripts": {
+    "crawl": "node src/cli.mjs crawl",
+    "crawl:dry-run": "node src/cli.mjs crawl --dry-run",
+    "process": "node src/cli.mjs process",
+    "emails": "node src/cli.mjs emails",
+    "export": "node src/cli.mjs export",
+    "pipeline": "node src/cli.mjs run"
+  },
+  "keywords": [
+    "brightdata",
+    "google-maps",
+    "crawler",
+    "scraper",
+    "australia",
+    "b2b-lead-generation",
+    "email-extraction"
+  ],
+  "author": "Daniel Nguyen <daniel@hiagency.au>",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

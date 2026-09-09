@@ -1,0 +1,19 @@
+{
+  "name": "Commercial & Office Cleaning Australia",
+  "keyword": "commercial cleaning",
+  "category_keywords": [
+    "commercial cleaning service",
+    "cleaning service",
+    "cleaner",
+    "window cleaning service",
+    "carpet cleaning service",
+    "office cleaning"
+  ],
+  "exclude_categories": [
+    "dry cleaner",
+    "laundromat",
+    "car wash"
+  ],
+  "require_website": true,
+  "default_waves": [1, 2, 3, 4]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Hairfolli B2B Hair Salons & Hairdressers Australia",
+  "keyword": "hair salon",
+  "category_keywords": [
+    "hair salon",
+    "hairdresser",
+    "hair stylist",
+    "hair extensions",
+    "beauty salon"
+  ],
+  "exclude_categories": [
+    "barber shop",
+    "beauty supply store",
+    "cosmetics store",
+    "school",
+    "college"
+  ],
+  "require_website": true,
+  "default_waves": [1, 2, 3, 4]
+}

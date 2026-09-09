@@ -1,0 +1,19 @@
+{
+  "name": "Beauty Salons, Spas & Skin Clinics Australia",
+  "keyword": "beauty salon",
+  "category_keywords": [
+    "beauty salon",
+    "day spa",
+    "skin care clinic",
+    "facial spa",
+    "eyelash salon",
+    "eyebrow bar"
+  ],
+  "exclude_categories": [
+    "hair salon",
+    "barber shop",
+    "tattoo shop"
+  ],
+  "require_website": true,
+  "default_waves": [1, 2, 3, 4]
+}

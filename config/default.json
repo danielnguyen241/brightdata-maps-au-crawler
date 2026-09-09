@@ -1,0 +1,86 @@
+{
+  "project": {
+    "name": "Full Australia Google Maps Lead Generation",
+    "country": "AU",
+    "reference_lat": -33.8688,
+    "reference_long": 151.2093,
+    "reference_city": "Sydney CBD"
+  },
+  "brightdata": {
+    "dataset_id": "gd_m8ebnr0q2qlklc02fz",
+    "per_key_cap": 4500,
+    "total_cap": 15000,
+    "poll_interval_ms": 20000,
+    "max_poll_ms": 1800000,
+    "request_timeout_seconds": 90,
+    "keys_file_candidates": [
+      "~/.config/brightdata/hairfolli_api_keys",
+      "~/.config/brightdata/api_keys",
+      "~/.config/brightdata/api_key"
+    ]
+  },
+  "email_scraper": {
+    "concurrency": 35,
+    "timeout_ms": 6000,
+    "max_emails_per_lead": 2,
+    "subpaths": [
+      "",
+      "/contact",
+      "/contact-us",
+      "/about",
+      "/about-us"
+    ],
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+  },
+  "trust_tiers": [
+    { "tier": "A+", "min_reviews": 500, "label": "Enterprise / High Authority" },
+    { "tier": "A", "min_reviews": 200, "label": "Top Established" },
+    { "tier": "B", "min_reviews": 100, "label": "Strong Local Presence" },
+    { "tier": "C", "min_reviews": 30, "label": "Active Small Business" },
+    { "tier": "D", "min_reviews": 10, "label": "Emerging / Boutique" },
+    { "tier": "E", "min_reviews": 0, "label": "New / Low Review Count" }
+  ],
+  "locations": [
+    { "id": "sydney-cbd", "label": "Sydney CBD", "state": "NSW", "wave": 1, "lat": -33.8688, "long": 151.2093, "zoom": 14 },
+    { "id": "parramatta", "label": "Parramatta", "state": "NSW", "wave": 1, "lat": -33.8150, "long": 151.0011, "zoom": 14 },
+    { "id": "chatswood", "label": "Chatswood / Lower North Shore", "state": "NSW", "wave": 1, "lat": -33.7969, "long": 151.1833, "zoom": 14 },
+    { "id": "liverpool", "label": "Liverpool / Bankstown", "state": "NSW", "wave": 1, "lat": -33.9209, "long": 150.9238, "zoom": 14 },
+    { "id": "penrith", "label": "Penrith", "state": "NSW", "wave": 1, "lat": -33.7511, "long": 150.6942, "zoom": 14 },
+    { "id": "hornsby", "label": "Hornsby", "state": "NSW", "wave": 1, "lat": -33.7024, "long": 151.0993, "zoom": 14 },
+    { "id": "northern-beaches", "label": "Northern Beaches", "state": "NSW", "wave": 1, "lat": -33.7644, "long": 151.2714, "zoom": 14 },
+    { "id": "sutherland", "label": "Sutherland Shire", "state": "NSW", "wave": 1, "lat": -34.0315, "long": 151.0550, "zoom": 14 },
+    { "id": "campbelltown", "label": "Campbelltown / Macarthur", "state": "NSW", "wave": 1, "lat": -34.0650, "long": 150.8142, "zoom": 14 },
+
+    { "id": "gosford", "label": "Central Coast / Gosford", "state": "NSW", "wave": 2, "lat": -33.4267, "long": 151.3417, "zoom": 13 },
+    { "id": "wollongong", "label": "Wollongong", "state": "NSW", "wave": 2, "lat": -34.4278, "long": 150.8931, "zoom": 13 },
+    { "id": "newcastle", "label": "Newcastle", "state": "NSW", "wave": 2, "lat": -32.9283, "long": 151.7817, "zoom": 13 },
+    { "id": "canberra", "label": "Canberra", "state": "ACT", "wave": 2, "lat": -35.2809, "long": 149.1300, "zoom": 13 },
+    { "id": "blue-mountains", "label": "Blue Mountains / Katoomba", "state": "NSW", "wave": 2, "lat": -33.7125, "long": 150.3119, "zoom": 13 },
+    { "id": "bathurst", "label": "Bathurst", "state": "NSW", "wave": 2, "lat": -33.4193, "long": 149.5775, "zoom": 13 },
+    { "id": "orange", "label": "Orange", "state": "NSW", "wave": 2, "lat": -33.2839, "long": 149.1007, "zoom": 13 },
+    { "id": "dubbo", "label": "Dubbo", "state": "NSW", "wave": 2, "lat": -32.2569, "long": 148.6011, "zoom": 13 },
+    { "id": "port-macquarie", "label": "Port Macquarie", "state": "NSW", "wave": 2, "lat": -31.4333, "long": 152.9000, "zoom": 13 },
+    { "id": "coffs-harbour", "label": "Coffs Harbour", "state": "NSW", "wave": 2, "lat": -30.2963, "long": 153.1157, "zoom": 13 },
+    { "id": "wagga-wagga", "label": "Wagga Wagga", "state": "NSW", "wave": 2, "lat": -35.1082, "long": 147.3598, "zoom": 13 },
+    { "id": "albury", "label": "Albury-Wodonga", "state": "NSW/VIC", "wave": 2, "lat": -36.0737, "long": 146.9135, "zoom": 13 },
+
+    { "id": "melbourne-cbd", "label": "Melbourne CBD", "state": "VIC", "wave": 3, "lat": -37.8136, "long": 144.9631, "zoom": 13 },
+    { "id": "brisbane", "label": "Brisbane", "state": "QLD", "wave": 3, "lat": -27.4698, "long": 153.0251, "zoom": 13 },
+    { "id": "gold-coast", "label": "Gold Coast", "state": "QLD", "wave": 3, "lat": -28.0167, "long": 153.4000, "zoom": 13 },
+    { "id": "adelaide", "label": "Adelaide", "state": "SA", "wave": 3, "lat": -34.9285, "long": 138.6007, "zoom": 13 },
+    { "id": "perth", "label": "Perth", "state": "WA", "wave": 3, "lat": -31.9523, "long": 115.8613, "zoom": 13 },
+
+    { "id": "melbourne-east", "label": "Melbourne East / Dandenong", "state": "VIC", "wave": 4, "lat": -37.9875, "long": 145.2149, "zoom": 13 },
+    { "id": "melbourne-west", "label": "Melbourne West / Werribee", "state": "VIC", "wave": 4, "lat": -37.9000, "long": 144.6610, "zoom": 13 },
+    { "id": "sunshine-coast", "label": "Sunshine Coast", "state": "QLD", "wave": 4, "lat": -26.6500, "long": 153.0667, "zoom": 13 },
+    { "id": "geelong", "label": "Geelong", "state": "VIC", "wave": 4, "lat": -38.1499, "long": 144.3617, "zoom": 13 },
+    { "id": "hobart", "label": "Hobart", "state": "TAS", "wave": 4, "lat": -42.8821, "long": 147.3272, "zoom": 13 },
+    { "id": "darwin", "label": "Darwin", "state": "NT", "wave": 4, "lat": -12.4634, "long": 130.8456, "zoom": 13 },
+    { "id": "cairns", "label": "Cairns", "state": "QLD", "wave": 4, "lat": -16.9186, "long": 145.7781, "zoom": 13 },
+    { "id": "townsville", "label": "Townsville", "state": "QLD", "wave": 4, "lat": -19.2589, "long": 146.8169, "zoom": 13 },
+    { "id": "toowoomba", "label": "Toowoomba", "state": "QLD", "wave": 4, "lat": -27.5598, "long": 151.9507, "zoom": 13 },
+    { "id": "ballarat", "label": "Ballarat", "state": "VIC", "wave": 4, "lat": -37.5622, "long": 143.8503, "zoom": 13 },
+    { "id": "bendigo", "label": "Bendigo", "state": "VIC", "wave": 4, "lat": -36.7570, "long": 144.2794, "zoom": 13 },
+    { "id": "launceston", "label": "Launceston", "state": "TAS", "wave": 4, "lat": -41.4332, "long": 147.1441, "zoom": 13 }
+  ]
+}
